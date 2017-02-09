@@ -1,84 +1,88 @@
-// h1 {
-//   font-family: Roboto;
-//   text-align: center;
-// }
-
-// .block {
-//   background-color: $grey-lighter-color;
-//   border: 1px $border-color solid;
-//   box-shadow: 0 2px 5px $black-light-color;
-//   text-align: justify;
-// }
-
-// .mom-header {
+// .dgcontainer {
+  
 //   display: flex;
-//   justify-content: space-between;
-//   padding: 0 15px;
+//   flex-direction: column;
+//   align-items: center;
+  
+//   .dgsection {
+//    width: 100%;
+//    display: flex;
+//    flex-direction: column;
+//    .dg3 {
+//      display: flex;
+//      flex-direction: row;
+//       .dg4 {
 
-//   .header-text {
-//     align-self: center;
-//     font-size: 1.4em;
-//     font-weight: 900;
+//       }
+//     }
+
+//     .dg31 {
+//       display: flex;
+//       flex-direction: row;
+//       .dg5 {
+
+//       }
+//     }
+
+//     .dg6up {
+//       display: flex;
+//       flex-direction: row;
+//       .dg6 {
+
+//       }
+//     }
+
+
+//     .dg7up {
+//       display: flex;
+//       flex-direction: row;
+//       .dg7 {
+
+//       }
+//     }
 //   }
 // }
 
-// .middle {
+
+// #dgsection1 {
+//   background-image: url('/img/banner.jpg');
 //   text-align: center;
+  
 // }
 
 
-
-.dgcontainer {
-  
+.maincontainer {
   display: flex;
- flex-direction: column;
-    align-items: center;
-  
-  .dgsection {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-    .dg3 {
+  flex-direction: column;
+  align-items: center;
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/img/banner.jpg');
+    text-align: center;
+    width: 100%;
+  }
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    .sec2_2 {
       display: flex;
       flex-direction: row;
-      .dg4 {
-          
-
-      }
-      
-
     }
-
-    .dg31 {
+    .sec2_3 {
       display: flex;
       flex-direction: row;
-      .dg5 {
-
-      }
-    }
-
-    .dg6up {
-      display: flex;
-      flex-direction: row;
-      .dg6 {
-
-      }
-    }
-
-
-    .dg7up {
-      display: flex;
-      flex-direction: row;
-      .dg7 {
-
-      }
     }
   }
-}
-
-
-#dgsection1 {
-  background-image: url('/img/banner.jpg');
-  text-align: center;
-  
+  .sec3 {
+    .sec3_1{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .sec5 {
+    display: flex;
+    flex-direction: row
+  }
 }

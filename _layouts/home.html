@@ -4,16 +4,98 @@
 ---
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include head.html title=page.title %}
+{% include header.html %}
 
 <body>
-  {% include header.html %}
-  <div class="container">
-    <section class="middle">
-      <h1 class="display-5">{{ page.headline }}</h1>
-      <h2 class="display-8">{{ page.second-headline }}</h2>
+  {% include head.html %}
+  <div class="maincontainer">
+    <section class="sec1">
+      <h1>Section 1</h1>
+      <br>
+    <div class = "sec1_1">
+      <h1> {{ page.temptext1 }}</h1>
+      <h5>Running engagin meetings </h5>
+    </div>
+    
+    <div class = "sec1_2">
+      <h1>Meeting notes made easy</h1>
+      <h2>Running engagin meetings </h2>
+    </div>
+    
+   <div class = "sec1_3">
+      <h1>PHOTO</h1>
+      
+    </div>
+
     </section>
+    <section class="sec2">
+      <div class = "sec2_1">
+      <h2>Mom</h2>
+      </div>
+
+      <div class = "sec2_2">
+        <div class = "sec2_2_1">
+          <h1>UI element</h1>
+          </div>
+          <div class = "sec2_2_2">
+            <h1> pic </h1>
+            </div>
+      </div>
+
+      <div class = "sec2_3">
+        <div class = "sec2_3_1">
+          <h1>UI element</h1>
+        </div>
+        <div class = "sec2_3_2">
+            <h1> pic </h1>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <section class="sec3">
+      <h1>I am good</h1>
+      <div class = "sec3_1">
+        <div class="sec3_1_1">
+        <h1> templates</h1>
+        </div>
+        <div class="sec3_1_2">
+          <h1> Widgets</h1>
+        </div>
+      <div class="sec3_1_3">
+        <h1> Actions </h1>
+      </div>
+      </div>
+      </section>
+    <section class="sec4">
+      <h1>Wallpaper </h1>
+      </section>
+    <section class="sec5">
+      <h1>Himanshu sir</h1>
+      </section>
+    <section class="sec5">
+      <div class = "sec5_1">
+      <h1>Pricing and Plans </h1>
+      <div class="sec5_1_1">
+        <h1>Indiviual </h1>
+      </div>
+      <div class="sec5_1_2">
+        <h1>Team & Enterprise  </h1>
+      </div>
+      </div>
+      </section>
+
+      <section class="sec6">
+      <div class="sec6_1">
+        <h1>Get in touch </h1>
+        </div>
+      
+      </section>
+        
   </div>
   {% include footer.html %}
 </body>
+  {% css vendor %}
+  {% css main %}
 </html>
