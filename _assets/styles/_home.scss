@@ -1,27 +1,84 @@
-h1 {
-  font-family: Roboto;
-  text-align: center;
-}
+// h1 {
+//   font-family: Roboto;
+//   text-align: center;
+// }
 
-.block {
-  background-color: $grey-lighter-color;
-  border: 1px $border-color solid;
-  box-shadow: 0 2px 5px $black-light-color;
-  text-align: justify;
-}
+// .block {
+//   background-color: $grey-lighter-color;
+//   border: 1px $border-color solid;
+//   box-shadow: 0 2px 5px $black-light-color;
+//   text-align: justify;
+// }
 
-.mom-header {
+// .mom-header {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 0 15px;
+
+//   .header-text {
+//     align-self: center;
+//     font-size: 1.4em;
+//     font-weight: 900;
+//   }
+// }
+
+// .middle {
+//   text-align: center;
+// }
+
+
+
+.dgcontainer {
+  
   display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
+ flex-direction: column;
+    align-items: center;
+  
+  .dgsection {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+    .dg3 {
+      display: flex;
+      flex-direction: row;
+      .dg4 {
+          
 
-  .header-text {
-    align-self: center;
-    font-size: 1.4em;
-    font-weight: 900;
+      }
+      
+
+    }
+
+    .dg31 {
+      display: flex;
+      flex-direction: row;
+      .dg5 {
+
+      }
+    }
+
+    .dg6up {
+      display: flex;
+      flex-direction: row;
+      .dg6 {
+
+      }
+    }
+
+
+    .dg7up {
+      display: flex;
+      flex-direction: row;
+      .dg7 {
+
+      }
+    }
   }
 }
 
-.middle {
+
+#dgsection1 {
+  background-image: url('/img/banner.jpg');
   text-align: center;
+  
 }
