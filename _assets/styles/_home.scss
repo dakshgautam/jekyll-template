@@ -81,8 +81,11 @@
     
   }
   .sec5 {
-    display: flex;
-    flex-direction: row;
+      .sec5_1 {
+        display: flex;
+        flex-direction: row;
+      }
+    
   }
 
   .sec7 {
@@ -119,16 +122,26 @@
 
     }
   }
-  .navbar {
+  .navbardiv_2 {
+    //border: 5px solid red;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width:50%;
+    margin-left: 50px;
+    padding-right: 25px;
+    .navbar {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-self: flex-end;
     justify-content: space-between;
-    width : 35%;
-    margin-right: 100px;
-
-    .mlink {
+    width : 100%;
+    //border: 2px solid crimson;
+      .listnavbar {
+      padding: 10px;
+    }
+      .mlink {
       border:1px solid white;
       border-radius: 25px;
       padding-top:5px;
@@ -136,11 +149,21 @@
       padding-left: 15px;
       padding-right: 15px;
     }
-  }
-  a {
+
+    a {
       color:white;
       font-size: 15px;
+    }
+
+   
   }
+   .fa {
+      display: none;
+    }
+    .dropdown {
+      display: none;
+    }
+}
 }
 
 .mcontainer {
@@ -195,12 +218,36 @@
   }
 }
 
-
-
+.footer {
+  height: 69.3px;
+  background-color: #1d2531;
+  text-align: center;
+  width: 100%;
+  .p {
+  width: 100%;
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3e4959;
+  }
+}
+.maincontainer > .sec2 > .sec2_2 {
+      //justify-content: flex-start;
+      //flex-direction: column;
+      @extend .mom-flex-centre;
+      
+    }
  @media screen and (max-width: 800px)  {
     .maincontainer > .sec2 > .sec2_2 {
       justify-content: flex-start;
       flex-direction: column;
+      
     }
 
     .maincontainer > .sec2 > .sec2_3 {
@@ -218,7 +265,27 @@
       flex-direction: column;
     }
 
-   
+   .maincontainer > .sec5 > .sec5_1 {
+     justify-content: flex-start;
+     flex-direction: column;
+   }
+    
+    .maincontainer > .sec7 {
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background-color: red;
+      visibility: hidden;
+    }
+    .navbardiv > .navbardiv_2 > .fa{
+      display: flex;
+    }
+
+    .navbardiv > .navbardiv_2 > .dropdown{
+      display: flex;
+    }
     
   }
 
