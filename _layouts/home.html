@@ -4,12 +4,21 @@
 ---
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include header.html %}
-
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  {% css vendor %}
+  {% css main %}
+</head>
 <body>
-  {% include head.html %}
   <div class="maincontainer">
     <section class="sec1">
+      {% include header.html %}
       <h1>Section 1</h1>
       <br>
     <div class = "sec1_1">
@@ -36,10 +45,10 @@
       <div class = "sec2_2">
         <div class = "sec2_2_1">
           <h1>UI element</h1>
-          </div>
-          <div class = "sec2_2_2">
-            <h1> pic </h1>
-            </div>
+        </div>
+        <div class = "sec2_2_2">
+          <h1> pic </h1>
+        </div>
       </div>
 
       <div class = "sec2_3">
@@ -69,9 +78,19 @@
       </div>
       </section>
     <section class="sec4">
-      <h1>Wallpaper </h1>
+      <div class="sec4_1">
+        <h1 class = "sec4_1_1">2000 + meeting minutes </h1>
+        <h1 class = "sec4_1_2">100 + desisions made </h1>
+      </div>
+      <div class="sec4_2">
+         <h1 class = "sec4_2_1">80+ active teams </h1>
+          <h1 class = "sec4_2_1">800+ action items </h1>
+
+      </div>
+      
+     
       </section>
-    <section class="sec5">
+    <section class="sec5temp">
       <h1>Himanshu sir</h1>
       </section>
     <section class="sec5">
@@ -89,8 +108,60 @@
       <section class="sec6">
       <div class="sec6_1">
         <h1>Get in touch </h1>
+      </div>
+      <form action="#" method="get" class = "sec6_2">
+        <a>First name <br><input type="text" name="fname"><br></a>
+        <a>Email <br> <input type="text" name="lname"><br></a>
+        <a>Message <br> <input type="text" name="lname"><br></a>
+
+        <br>
+        <input type="submit" value="Message">
+      </form>
+      </section>
+
+      <section class="sec7">
+        <div class="sec7_1">
+        <div class = "sec7_1_1">
+           <h5>PRODUCT</h5>
+          <ul>
+            <li class = "bloglink">Features</li>
+            <li class = "bloglink">Pricing</li>
+            <li class = "bloglink">Free Trail</li>
+          </ul>
         </div>
-      
+        <div class = "sec7_1_2">
+          <h5>LEARN</h5>
+          <ul>
+            <li class = "bloglink">Blog</li>
+            <li class = "bloglink">Meeting Best Practices</li>
+          </ul>
+        </div>
+        </div>
+        <div class = "sec7_2">
+        <div class = "sec7_2_1">
+
+          <h5>COMPANY</h5>
+          <ul>
+            <li class = "bloglink">Privacy</li>
+            <li class = "bloglink">Term & Condtions </li>
+            <li class = "bloglink">Contacts </li>
+
+          </ul>
+
+        </div>
+        <div class = "sec7_2_2">
+          <h5>SOCIAL</h5>
+          <ul>
+            <li class = "bloglink">Facebook </li>
+            <li class = "bloglink"> Twitter </li>
+            <li class = "bloglink">Linkedin </li>
+            <li class = "bloglink">Google +</li>
+
+
+          </ul>
+
+        </div>
+        </div>
       </section>
         
   </div>
