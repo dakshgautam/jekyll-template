@@ -12,12 +12,13 @@
 
 
 $("#hamburgers").click(function() {
-  if(!$('#hamburgers').hasClass('dropdown')){
-    $('.dropdown').show(1000);
-  }
-  else{
-    console.log('another click');
-    $('.dropdown').hide(1000);
-  }
+  alert('hello world');
+  $('.dropdown').css("display","flex");
+});
+
+
+$('#crossbutton').click(function() {
+  $('.dropdown').css("display","none");
+
 });
 
